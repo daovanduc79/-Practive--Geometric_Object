@@ -4,7 +4,7 @@ include_once 'Circle/Cylinder.php';
 include_once 'Rectangle/Rectangle.php';
 include_once 'Rectangle/Square.php';
 
-$circle = new Circle('circle-01', 5);
+$circle = new MyCircle('circle-01', 5);
 echo $circle->calculateArea() . '<br>';
 echo $circle->calculatePerimeter() . '<br>';
 
