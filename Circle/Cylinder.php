@@ -1,7 +1,7 @@
 <?php
 include_once 'Circle.php';
 
-class Cylinder extends MyCircle
+class Cylinder extends Circle
 {
     public $height;
 
